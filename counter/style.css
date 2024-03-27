@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+background-color: beige;
+
+}
+
+.counter{
+padding: 16px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*title*/
+.title{
+    text-align: center;
+    font-size: 70px;
+    color: palevioletred;
+letter-spacing: 7px;
+word-spacing: 10px;
+text-shadow: 5px 5px black;
+margin-bottom: 50px;
+}
+/*text*/
+.text{
+    display: block;
+width: 100% ;
+height: auto;
+  border: 3px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    resize: none;
+    max-width: 800px;
+    line-height: 2;
+    margin: 0 auto;
+    caret-color: black;
+}
+.counter text:focus,
+.counter text:valid{
+    border-color: black;
+}
+.counter.error textarea{
+    border-color: brown;
+}
+
+/* counter*/
+.count-btn{
+    display: block;
+    margin:0 auto;
+    padding: 20px;
+  font-size: 30px;
+  background-color: palevioletred;
+  color: black;
+  border-radius: 10px;
+  border :none;
+  cursor: pointer;
+  
+  
+}
+.count-btn:hover{
+    background-color: rgb(215, 142, 166);
+}
+/*word*/
+.word-result{
+    font-weight: 400;
+font-size: 27px;
+}
+span{
+    font-size: 35px;
+}
+/*letters*/
+.letters-result{
+    font-weight: 400;
+font-size: 27px;
+padding: 10px;
+}
+/*sentence*/
+.sentence-result{
+    font-weight: 400;
+font-size: 27px;
+
+}
+/*limmit*/
+.counter .car{
+    display: none;
+}
+
+.counter.active .car{
+   display: block;
+}
+
+.counter.error .car{
+ color: brown;
+}
+.counter.error .title{
+    color: brown;
+   }
+ .counter.error .word-result{
+    color: brown;
+   }
+   .counter.error .letters-result{
+    color: brown;
+   }
+   .counter.error .sentence-result{
+    color: brown;
+   }
+   
+
+
+
+
+
